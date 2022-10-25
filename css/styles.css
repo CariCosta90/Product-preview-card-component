@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+p{
+    font-size: 14px;
+}
+
+div.card{
+    background-color: white;
+    margin: 1.5rem 0.5rem;
+    border-radius: 10px;
+    }
+img.perfume{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+h1.title{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 0;
+    color: hsl(212, 21%, 14%);
+}
+
+.detail{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subtitle{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5rem;
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 12px 0;
+    display: flex;
+}
+
+span.oldPrice {
+    content: "$169.99";
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.7rem;
+    text-decoration: line-through solid rgb(68, 68, 68);
+    /* vertical-align: middle; */
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    vertical-align: middle;
+}
+
+button:hover{
+    background-color: hsl(158, 36%, 25%);
+}
+
+.cartImg{
+    width: 0.8rem;
+    vertical-align: middle;
+    margin-right: 10px;
+}
