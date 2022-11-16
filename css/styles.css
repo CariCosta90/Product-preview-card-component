@@ -17,6 +17,9 @@ img.perfume{
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
+img.perfumeDesktop{
+    display: none;
+}
 h1.title{
     font-family: 'Fraunces', serif;
     font-weight: 700;
@@ -67,7 +70,7 @@ span.oldPrice {
     text-decoration: line-through solid rgb(68, 68, 68);
     /* vertical-align: middle; */
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 10px ;
     }
 
 button{
@@ -90,4 +93,26 @@ button:hover{
     width: 0.8rem;
     vertical-align: middle;
     margin-right: 10px;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    div.card{
+        height: 28rem;
+        width: 38rem;
+        margin: 20% auto;
+        object-fit: cover;
+        display: flex;
+        }
+    img.perfume{
+        display: none;
+    }
+    img.perfumeDesktop{
+        display: flex;
+        flex-basis: 55%;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .detail{
+        flex-basis: 45%;
+    }
 }
