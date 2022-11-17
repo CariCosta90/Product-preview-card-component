@@ -28,6 +28,9 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 - Expected result
+
+
+
   ![Movile preview](./design/mobile-design.jpg)
   ![Desktop preview](./design/desktop-preview.jpg)
  
